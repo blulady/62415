@@ -6,7 +6,7 @@ class ApplicationMailer < ActionMailer::Base
       to:"ssanger@protonmail.com", 
       subject:"sending an email", 
       body:"Greetings, \nI am reaching out to let you know that I have completed the challange.\nThank you for giving me this opportunity. I look foward to hearing from you.\nBest Wishes, \n 
-      Sarah Sanger"
+      Sarah Sanger test"
       )
   end
 end
