@@ -64,19 +64,17 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
-  config.action_mailer.default_url_options = {host:'https://fly-hiring-email.fly.dev/'}
+  config.action_mailer.default_url_options = {host:'fly-hiring-email.fly.dev', protocol:"https"}
 
   # config.action_mailer.delivery_method = :letter_opener_web
   
-  # host = 'https://fly-hiring-email.fly.dev/' 
-  # config.action_mailer.default_url_options = { host: host }
 
   # SMTP settings for gmail
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
   address:              'smtp.gmail.com',
   port:                 587,
-  domain:               'https://fly-hiring-email.fly.dev/',
+  domain:               'fly-hiring-email.fly.dev/',
   user_name:            'a.production.test.email@gmail.com',
   password:             '"cigcixelentalwfr"',
   authentication:       'plain',
