@@ -66,7 +66,7 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = {host:'https://fly-hiring-email.fly.dev/'}
 
-  # config.action_mailer.delivery_method = :letter_opener_web
+  config.action_mailer.delivery_method = :letter_opener_web
   
 
   # SMTP settings for gmail
