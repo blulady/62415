@@ -59,7 +59,7 @@ Rails.application.configure do
   # config.cache_store = :mem_cache_store
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
-  # config.active_job.queue_adapter     = :resque
+  config.active_job.queue_adapter = :async
   # config.active_job.queue_name_prefix = "support_eng_production"
 
   config.action_mailer.perform_caching = false
@@ -67,7 +67,7 @@ Rails.application.configure do
   config.action_mailer.default_url_options = {host:'https://fly-hiring-email.fly.dev/'}
 
   config.action_mailer.delivery_method = :letter_opener_web
-  config.action_mailer.perform_deliveries = true
+
   
 
   # SMTP settings for gmail
