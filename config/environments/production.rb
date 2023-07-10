@@ -68,8 +68,8 @@ Rails.application.configure do
 
   # config.action_mailer.delivery_method = :letter_opener_web
   
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
+  # host = 'https://fly-hiring-email.fly.dev/' 
+  # config.action_mailer.default_url_options = { host: host }
 
   # SMTP settings for gmail
   config.action_mailer.delivery_method = :smtp
@@ -78,7 +78,7 @@ Rails.application.configure do
   port:                 587,
   domain:               'https://fly-hiring-email.fly.dev/',
   user_name:            'a.production.test.email@gmail.com',
-  password:             '"Apassword2023!!"',
+  password:             '"cigcixelentalwfr"',
   authentication:       'plain',
   enable_starttls_auto: true,
   open_timeout:         5,
