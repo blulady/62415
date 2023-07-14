@@ -1,6 +1,6 @@
 #### Support Email Response
 
-Greeings Customer,
+Greeings Customer, <br>
 I am sorry to hear that a small change is now affecting your ability to deploy. I am sure that you already saw the Health Checks failing section of the trouble shooting docs but if not, check this [link](https://fly.io/docs/getting-started/troubleshooting/#health-checks-failing) out. I would appreciate some information about the app. What kind of app are you trying to deploy? Any other errors you can see? What was the recent change that you made? On my end I will be checking the VMs to make sure they are shutting down and rebuilding appropriately.
 
 ---
