@@ -6,7 +6,7 @@ I am sorry to hear that a small change is now affecting your ability to deploy. 
 ---
 
 #### Support Email Troubleshooting steps
-- run fly status --all #this should show failing VMs
+- run [fly status](https://fly.io/docs/hands-on/check-app-status/) --all #this should show failing VMs
 - run fly vm status id# on the failing VMs
 - or view [logging](https://fly.io/docs/flyctl/logs/)
 
@@ -23,4 +23,5 @@ Let me know if you could get it running or if you got some helpful errors from l
 
 #### Rails App URL
 
-Once you've deployed your Rails app, put the link here: `<app>.fly.dev`
+Once you've deployed your Rails app, put the link here: `https://fly-hiring-email.fly.dev/`
+* Fly made deploying very easy, I was able to deploy almost immediately. I was unable to send an email, however, I am willing to continue working on it this weekend if it is allowed
